@@ -140,4 +140,9 @@ size += 1;
 ```
 at the end of the add() method.
 
+**Part 2 -- Reflection** <br>
+The thing I am very glad that I got from the second half of this quarter in labs was learning more about vim and jdb. <br>
+I find myself using both of them in my personal and academic coding tasks, which is saving me time. A specific one to note <br>
+would be using vim to change all instances of one word or number, as it helps me speed through making changes. jdb is also very good <br>
+in helping me stop at certain points in a file and read all the variable values without having to write "print" everywhere to debug as before. <br>
 
