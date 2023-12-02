@@ -1,19 +1,19 @@
 # CSE15L Lab 5
 
 **Part 1 -- Debugging Scenario** <br>
-Original post from student <br>
+Original post from student: <br>
 ![Image](Original_Post.png) <br>
 The input is adding a bunch of elements to the LinkedList implementation using the add() method, however, no matter how many elements I add, the size() always returns 0 <br>
 The problem if I had to guess is somewhere in the incrementation of the size parameter <br>
 
-TA response
+TA response: <br>
 You can try to run jdb on both the size() method or the add() method and print the corresponding variables(What variable would you print here to see the bug?) <br>
 
-Trying TA's suggestion
+Trying TA's suggestion: <br>
 ![Image](Trying_Suggestion.png) <br>
 I used jdb to stop at the end of the add() method, and by using print in jdb, found out that the size variable is 0 here even after adding. I deduced from this that the bug must be in the add() method, upon closer inspection, the add method lacks the proper code to increment size <br>
 
-All info in the setup
+All info in the setup: <br>
 The file & directory structure needed: <br>
 ```
 Lab 5
